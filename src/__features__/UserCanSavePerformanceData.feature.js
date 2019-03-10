@@ -4,7 +4,7 @@ describe('User attempts save data', () => {
 
   beforeAll(async () => {
     jest.setTimeout(10000)
-    await page.goto('http://localhost:3001');
+    await page.goto('http://localhost:5000');
 
   });
 

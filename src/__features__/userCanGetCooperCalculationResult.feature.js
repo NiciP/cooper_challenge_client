@@ -2,7 +2,7 @@ describe('Cooper Client', async () => {
 
     beforeAll(async () => {
       jest.setTimeout(100000);
-      await page.goto('http://localhost:3001');
+      await page.goto('http://localhost:5000');
     });
   
     beforeEach(async () => {

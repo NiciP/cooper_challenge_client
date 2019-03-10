@@ -18,7 +18,7 @@ module.exports = {
   
     server: {
       command: `BROWSER=none npm run start`,
-      port: 3001,
+      port: 5000,
       launchTimeout: 40000,
     },
 }

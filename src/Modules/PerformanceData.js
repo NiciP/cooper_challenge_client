@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { storeAuthCredentials } from './Auth'
 
-const apiUrl = 'https://np-cooper-api.herokuapp.com/api/v1/auth';
+const apiUrl = 'https://np-cooper-api.herokuapp.com/api/v1';
 
 const saveData = (result, values) => {
   const { gender, distance, age } = values

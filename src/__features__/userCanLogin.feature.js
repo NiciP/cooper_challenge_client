@@ -4,7 +4,7 @@ describe('User attempts to login', () => {
 
   beforeAll(async () => {
     jest.setTimeout(10000)
-    await page.goto('http://localhost:3001');
+    await page.goto('https://np-cooper-api.herokuapp.com/api/v1/auth');
   });
 
   beforeEach(async () => {

@@ -1,68 +1,78 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Cooper Assesment Challenge
 
-## Available Scripts
+ This project entails the building of a fitness tracking application using a specific test called The Cooper Test.
+ This app allows users to track their performance and has the ability to present historical data of tests if a user has saved any data.
 
-In the project directory, you can run:
+As there is a very high correlation between the distance someone can run (or walk) in 12 minutes and their VO2 max value,  this technique provides an accurate estimate of a persons fitness
+This test also allows you to compare your cardiovascular endurance with others of your age and gender.
 
-### `npm start`
+### Languages utilized:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### BACK-END:
+- Ruby on Rails
+- Postgresql database
+- Rspec
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+#### FRONT-END:
+- React
+- Testing with jest, puppeteer 
+- Semantic UI
 
-### `npm test`
+#### CONNECTION:
+- Postman
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Specific features incorporated:
 
-### `npm run build`
+- API built using Ruby on Rails
+- Testing API endpoints with RSpec using request specs
+- Use of CORS
+- Authenticating users from a React application
+- Making post requests to an API from a client
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Client site deployed:
+https://cooper-fitness-assesment.netlify.com
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+#### Backend site deployed:
+https://np-cooper-api.herokuapp.com/api/v1/auth
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Node package manager run instructions:
 
-### `npm run eject`
+npm install 
+Installs npm from the terminal
+```
+npm start
+```
+Runs the app in development mode.
+Open http://localhost:3000 to view it in the browser.
+```
+npm run build
+```
+Builds the app for production to the build folder.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Authors
+[Nici Putter](https://github.com/NiciP)  
+[Alecia Benjamin](https://github.com/aleciabenjamin/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Test Functionality
+Email: ali@nici.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Password: password
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Question
 
-## Learn More
+In the current implementation of the Cooper Challenge, where are we doing the calculation or rather where do we check the result of the Cooper test. On the client or on the server? What are the pros and cons of doing it that way?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Answer
+In this application the  calculation is performed on the client side.  
+Pros:
+- Calculations are performed rapidly as it does not require access to the server
+- As developers we have more control over the look and behaviour of the application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Cons:
+- Security is a concern as the client-side computer may be accessed by a malicious attacker. 
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### External sources implemenented:
+[Craft Academy](https://craftacademy.se/) - Course material and demos.  
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Stack Overflow](https://stackoverflow.com/) was consulted to gain deeper insight into the client and server concepts.

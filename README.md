@@ -1,7 +1,7 @@
-## Cooper Assesment Challenge
+## Cooper Assesment Challenge - Client
 
- This project entails the building of a fitness tracking application using a specific test called The Cooper Test.
- This app allows users to track their performance and has the ability to present historical data of tests if a user has saved any data.
+This project entails the building of a fitness tracking application using a specific test called The Cooper Test.
+This app allows users to track their performance and has the ability to present historical data of tests if a user has saved any data.
 
 As there is a very high correlation between the distance someone can run (or walk) in 12 minutes and their VO2 max value,  this technique provides an accurate estimate of a persons fitness
 This test also allows you to compare your cardiovascular endurance with others of your age and gender.
